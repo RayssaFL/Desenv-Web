@@ -1,0 +1,26 @@
+.intro {
+  background: url("https://via.placeholder.com/1200x400") no-repeat center
+    center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(218, 115, 115);
+  text-align: center;
+}
+.intro h1 {
+  font-size: 3rem;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 5px rgba(102, 102, 102, 0.26);
+}
